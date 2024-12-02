@@ -1,0 +1,157 @@
+body{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: #f4f4f4; /* Fundo suave */
+       justify-content: center; /* Centraliza verticalmente */
+        height: 100vh; /* Altura da tela inteira */
+        background-image: url('https://c4.wallpaperflare.com/wallpaper/726/526/438/peach-fruit-gradation-blur-wallpaper-preview.jpg');
+        background-size: cover;
+        margin: 50PX;
+}
+img {
+    float: right; /* Posiciona a imagem à direita */
+  margin-left: 20px; /* Adiciona um espaçamento à esquerda da imagem */
+  border-radius: 50%; /* Torna a imagem circular */
+  padding: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+button {
+    padding: 15px;
+    background-color: #c43838;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #d65c34;
+}
+.titulo,.texto{
+   
+    margin-top: 50px;
+    padding: 5px;
+    color: #7d370e;
+    
+}
+hr{
+    background-color: black;
+    color: black;
+}
+
+.parte{
+    padding: 50px 0;
+}
+.container{
+    background-color:  #e67b41;
+    border: 1px solid  #e67b41;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.portfolio-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.projeto {
+    flex: 1;
+    min-width: 250px;
+    background-color: #f8f5f2d8;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.projeto img {
+    width: 100%;
+    border-radius: 40px;
+    margin-bottom: 15px;
+    height: 350px;
+    width: 350px;
+
+}
+.serviços ul,h2 {
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+}
+
+.serviços li {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    padding: 10px;
+    text-align: center;
+}
+.outra{
+    background-color:   #f9ddc1;
+    border: 1px solid  #f9ddc1;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contato form {
+    display: grid;
+    gap: 15px;
+    padding: 50px;
+
+}
+.contato input, .contato textarea {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    text-align: center;
+}
+
+.contato button {
+    padding: 20px;
+    background-color: #c43838;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contato button:hover {
+    background-color: #825115;
+}
+.outros{
+    background-color:   #f9ddc100;
+    border: 1px solid  #f9ddc100;
+    padding: 20px;
+    border-radius: 8px;
+}
+.comentario {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #2d3e50;
+
+}
+
+.comentario cite {
+    display: block;
+    margin-top: 10px;
+    font-style: normal;
+    color: #555;
+}
+footer {
+    background-color: #c53e3e;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
